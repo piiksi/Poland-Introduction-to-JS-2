@@ -1,0 +1,99 @@
+.body_wrapper{
+    width: 800px;
+    height: 850px;
+    margin: 0 auto;
+    background-color: oldlace;
+    font-family: 'Bangers', cursive;
+    border-style: outset;
+}
+
+/* Header */
+.header_wrapper{
+    width: 800px;
+    height: 150px;
+    background-color: darkcyan;
+    margin-top: -40px;
+}
+.header_wrapper h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 60px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: gray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: lightcoral;
+}
+
+/* Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+
+.show{
+    display:block;
+}
+
+/* Main Content */
+.content_wrapper button {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-bottom: 30px;
+    background-color: gainsboro;
+    height: 50px;
+    font-family: 'Delius', cursive;
+}
+.content_wrapper button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.content_wrapper p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Delius';
+}
+.question {
+    
+}
+
+/* Footer */
+.footer{
+    text-align: center;
+    width: 800px;
+    height: auto;
+    background-color: gainsboro;
+    margin: 0 auto;
+    border-style: outset;
+    font-family: 'Bangers', cursive;
+}
