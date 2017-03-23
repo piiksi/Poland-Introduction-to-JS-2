@@ -18,9 +18,8 @@ var $name = $('.name'),
     $thanks = $('.thanks'),
     $options = $('.options');
 
-var quizQuestions = {};
 
-quizQuestions.init = function() {
+init = function() {
   var selection = content[counter];
   type = selection["answer"];
   $name.html(selection["name"]);
@@ -29,7 +28,7 @@ quizQuestions.init = function() {
   $thanks.hide();
 }
 
-quizQuestions.generate = function() {
+generate = function() {
   
   if (counter < content.length) {
     var selection = content[counter];
@@ -63,9 +62,9 @@ $('.choice').click(function(e) {
 });
 
 $(document).ready(function() {
-  quizQuestions.init();
+  init();
 });
 
 $generate.on('click', function() {
-  quizQuestions.generate();
+  generate();
 });
