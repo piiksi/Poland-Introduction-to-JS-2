@@ -18,9 +18,10 @@ var $name = $('.name'),
     $thanks = $('.thanks'),
     $options = $('.options');
 
+var selection = content[counter];
+var type = selection["answer"];
 
 init = function() {
-  var selection = content[counter];
   type = selection["answer"];
   $name.html(selection["name"]);
   $generate.hide();
