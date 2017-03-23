@@ -1,6 +1,6 @@
 .body_wrapper{
     width: 800px;
-    height: 850px;
+    height: 800px;
     margin: 0 auto;
     background-color: oldlace;
     font-family: 'Bangers', cursive;
@@ -10,14 +10,14 @@
 /* Header */
 .header_wrapper{
     width: 800px;
-    height: 150px;
+    height: 200px;
     background-color: darkcyan;
-    margin-top: -40px;
+    margin-top: -45px;
 }
 .header_wrapper h1{
     text-align: center;
-    padding-top: 40px;
-    font-size: 60px;
+    padding-top: 60px;
+    font-size: 70px;
 }
 
 /* Dropdown Button */
@@ -66,25 +66,57 @@
 }
 
 /* Main Content */
-.content_wrapper button {
-    width: 150px;
-    margin-top: 30px;
-    margin-left: 170px;
+.content_wrapper {
+    margin-top: 70px;
+}
+.choice {
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 30px;
+    padding: 40px;
+    padding-top: 40px;
     background-color: gainsboro;
     height: 50px;
     font-family: 'Delius', cursive;
+    text-align: center;
+    font-size: 25px;
 }
-.content_wrapper button:hover {
+.generate {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: gainsboro;
+    height: 50px;
+    font-family: 'Delius', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+.choice:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: lightblue;
 }
-.content_wrapper p{
+.generate:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: lightgoldenrodyellow;
+}
+.name {
+    margin-bottom: 50px;
     text-align: center;
     font-size: 25px;
     font-family: 'Delius';
 }
-.question {
-    
+.results {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Delius';
+}
+.thanks {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Delius';
 }
 
 /* Footer */
